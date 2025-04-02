@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">АндроидДомашки</string>
+    <string name="my_first_string">Темная Тема</string>
+    <string name="my_second_string">Привет, Мир!</string>
+    <string name="button_text">Нажми!</string>
+    <string name="hi_with_name">Привет, %s</string>
+    <string name="save_btn_text">Сохранить</string>
+    <string name="name_input_text">Введите имя</string>
+    <string name="default_name">Друг</string>
+    <string name="toast_message">Кнопка нажата!</string>
+</resources>
