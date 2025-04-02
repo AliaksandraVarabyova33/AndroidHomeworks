@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AndroidHomeworks</string>
+    <string name="my_first_string">Dark Mode</string>
+    <string name="my_second_string">Hello, World!</string>
+    <string name="button_text">Click on me!</string>
+    <string name="hi_with_name">Hi, %s</string>
+    <string name="save_btn_text">Save</string>
+    <string name="name_input_text">Enter your name</string>
+    <string name="toast_text" translatable="false">Toast</string>
+    <string name="default_name">Friend</string>
+    <string name="toast_message">Button is clicked!</string>
+
 </resources>
