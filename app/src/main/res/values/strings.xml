@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AndroidHomeworks</string>
+    <string name="button_text">Click to change Activity</string>
+    <string name="activity_text">Hello, Second Activity!</string>
+    <string name="fragm_btn_text">Click to change Fragment</string>
+    <string name="my_fragment">Data From Activity</string>
+    <string name="hello_fragment_b">Hello FragmentB</string>
 </resources>
