@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AndroidHomeworks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_test">Test</string>
+    <string name="toSecondFragment">To Second Fragment</string>
+    <string name="toFirstFragment">To First Fragment</string>
+    <string name="toThirdFragment">To Third Fragment</string>
+    <string name="editTextHint">Enter Smth</string>
+    <string name="textFromFirstFragment">Text From First Fragment</string>
 </resources>
