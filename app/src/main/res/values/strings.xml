@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">AndroidHomeworks</string>
-    <string name="default_fragment_textView">Test TestView</string>
-    <string name="default_fragment_button">Test Button</string>
+    <string name="default_fragment_textView">First Fragment</string>
+    <string name="fragment2_textView">Second Fragment</string>
+    <string name="fragment3_textView">Third Fragment</string>
+    <string name="default_fragment_button">To Next Fragment</string>
+    <string name="add_button">Add Fragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cake_icon">&#xE7E9;</string>
+    <string name="change_text_btn">Change TextView Text</string>
+    <string name="changed_text">Changed Text</string>
 </resources>
