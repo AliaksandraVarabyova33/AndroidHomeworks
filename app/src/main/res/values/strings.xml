@@ -2,4 +2,10 @@
     <string name="app_name">AndroidHomeworks</string>
     <string name="default_fragment_textView">Test TestView</string>
     <string name="default_fragment_button">Test Button</string>
+    <string name="add_name_button">Add Name</string>
+    <string name="add_name_edit">Enter name</string>
+    <string name="empty_list_button">Show Empty List</string>
+    <string name="not_empty_list_button">Show Names</string>
+    <string name="empty_list_text">List is empty</string>
+
 </resources>

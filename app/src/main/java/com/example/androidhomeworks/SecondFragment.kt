@@ -24,5 +24,13 @@ class SecondFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        val list = ArrayList<String>().apply {
+            repeat(50) {
+                add("Test Name $it")
+            }
+        }
+
+        val adapter = NameRecyclerViewAdapter(list)
+        viewBinding.recyclerView.adapter = adapter
     }
 }
