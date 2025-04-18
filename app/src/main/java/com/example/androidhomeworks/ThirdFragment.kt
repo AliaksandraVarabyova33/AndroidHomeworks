@@ -12,6 +12,7 @@ class ThirdFragment : Fragment() {
 
     private lateinit var viewBinding: FragmentThirdBinding
     private lateinit var navController: NavController
+    private lateinit var adapter: NameRecyclerViewAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -23,5 +24,20 @@ class ThirdFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        val list = ArrayList<String>()
+        adapter = NameRecyclerViewAdapter(list)
+        viewBinding.recyclerView.adapter = adapter
+        viewBinding.button.setOnClickListener {
+            addNameToList(list)
+        }
+    }
+
+    private fun addNameToList(list: ArrayList<String>) {
+        val name = viewBinding.editText.text.toString()
+        if (name.isNotEmpty()) {
+            adapter.addItem(name)
+            viewBinding.editText.text.clear()
+        }
     }
 }
